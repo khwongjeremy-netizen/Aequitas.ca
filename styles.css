@@ -1,0 +1,47 @@
+body {
+    background-color: #FFFFFF;
+}
+
+#maindiv {
+    background-color: black;
+    color: white;
+    padding: 2px;
+    font-family: "Lucida Console", "Courier New", monospace;
+/*  height: 50px;
+    width: 300px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 0; */
+    
+}
+
+#abtdiv {
+    background-color: black;
+    color: white;
+    padding: 2px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin-top: 10%;
+    margin-bottom: 10%;
+/*  height: 100px;
+    width: 450px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 0; */
+}
+
+#evediv {
+    background-color: black;
+    color: white;
+    padding: 2px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin-top: 10%;
+    margin-bottom: 10%;
+/*  height: 100px;
+    width: 450px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 0; */
+}
