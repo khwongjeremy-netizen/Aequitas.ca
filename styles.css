@@ -64,12 +64,14 @@ nav{
     text-align: center;
 }
 /* about us div*/
+/* Just the section*/
 .about {
     display: grid;
     place-items: center;
     min-height: 60vh;
     width: 100%;
 }
+/* About div reality*/
 .about div{
     padding: 10px;
     background-color: #E7DDFF;
@@ -77,6 +79,7 @@ nav{
     width: 50%;
 
 }
+/*Header of the about*/
 .about div h2{
     text-align: center;
     font-family: "Fira Sans Condensed", sans-serif;
@@ -85,6 +88,7 @@ nav{
     font-size: 60%;
 
 }
+/*Paragraph of the div*/
 .about div p{
     padding: 5%;
     text-align: center;
@@ -95,6 +99,7 @@ nav{
     letter-spacing: 2px;
 
 }
+/*Contact div*/
 .contact {
     margin-top: 30%;
     background-color: #000000;
@@ -143,6 +148,7 @@ nav{
     }
 
 } */
+
 
 
 
