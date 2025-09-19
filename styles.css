@@ -36,7 +36,7 @@ nav{
 .pages ul li a{
     color: white;
     text-decoration: none;
-    font-size: 20%;
+    font-size: 30%;
     font-family: "Lucida Console", "Courier New", monospace;
 
 }
@@ -50,11 +50,11 @@ nav{
     transition: 0.5s;
 }
 .pages ul li:hover::after{
-    width:100%;
+    width: 100%;
 }
 /*slogan*/
 .slogan{
-    font-size: 40%;
+    font-size: 60%;
     width: 90%;
     color: #FFFFFF;
     position: absolute;
@@ -80,9 +80,9 @@ nav{
 .about div h2{
     text-align: center;
     font-family: "Fira Sans Condensed", sans-serif;
-    font-weight: 10;
+    font-weight: 30;
     font-style: normal;
-    font-size: 20%;
+    font-size: 60%;
 
 }
 .about div p{
@@ -91,7 +91,7 @@ nav{
     font-family: "Fira Sans Condensed", sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 10%;
+    font-size: 20%;
     letter-spacing: 2px;
 
 }
@@ -143,6 +143,7 @@ nav{
     }
 
 } */
+
 
 
 
