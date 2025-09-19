@@ -33,7 +33,7 @@ nav{
 .pages ul li a{
     color: white;
     text-decoration: none;
-    font-size: 70px;
+    font-size: 5%;
     font-family: "Lucida Console", "Courier New", monospace;
 
 }
@@ -50,7 +50,7 @@ nav{
     width:100%;
 }
 .slogan{
-    font-size: 200px;
+    font-size: 10%;
     width: 90%;
     color: #FFFFFF;
     position: absolute;
@@ -139,4 +139,5 @@ nav{
     }
 
 } */
+
 
