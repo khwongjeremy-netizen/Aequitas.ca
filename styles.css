@@ -1,4 +1,4 @@
-6html, body {
+html, body {
     background-color: #FFFFFF;
     overflow-x: hidden;
     width: 100;
@@ -65,8 +65,8 @@ nav{
 }
 /* about us div*/
 .about {
-    margin-top: 10%;
-    margin-left: 35%;
+    display: grid;
+    place-items: center;
     min-height: 60vh;
     width: 100%;
 }
@@ -143,6 +143,7 @@ nav{
     }
 
 } */
+
 
 
 
