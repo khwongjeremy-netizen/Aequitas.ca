@@ -84,20 +84,17 @@ nav{
 .about div h2{
     text-align: center;
     font-family: "Fira Sans Condensed", sans-serif;
-    font-weight: 30;
     font-style: normal;
     font-size: 60%;
 
 }
 /*Paragraph of the div*/
 .about div p{
-    padding: 5%;
+    padding: 2%;
     text-align: center;
     font-family: "Fira Sans Condensed", sans-serif;
-    font-weight: 500;
     font-style: normal;
     font-size: 20%;
-    letter-spacing: 2px;
 
 }
 /*Contact div*/
@@ -149,6 +146,7 @@ nav{
     }
 
 } */
+
 
 
 
