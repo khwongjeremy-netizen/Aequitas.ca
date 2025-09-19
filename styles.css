@@ -66,6 +66,7 @@ nav{
 /* about us div*/
 /* Just the section*/
 .about {
+    align-items: center;
     display: grid;
     place-items: center;
     min-height: 60vh;
@@ -148,6 +149,7 @@ nav{
     }
 
 } */
+
 
 
 
