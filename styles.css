@@ -64,7 +64,7 @@ nav{
 /* about us div*/
 /* Just the section*/
 .about {
-    margin-top: 35%;
+    margin-top: 30%;
     display: grid;
     place-items: center;
     min-height: 60vh;
@@ -72,9 +72,9 @@ nav{
 }
 /* About div reality*/
 .about div{
-    padding: 10px;
+    padding: 1px;
     background-color: #E7DDFF;
-    min-height: 40vh;
+    min-height: 60vh;
     width: 50%;
 
 }
@@ -88,7 +88,7 @@ nav{
 }
 /*Paragraph of the div*/
 .about div p{
-    padding: 2%;
+    padding: 1px;
     text-align: center;
     font-family: "Fira Sans Condensed", sans-serif;
     font-style: normal;
@@ -108,7 +108,7 @@ nav{
 }
 .contact div nav ul li a i{
     margin-top: 100%;
-    font-size: 60%;
+    font-size: 70%;
 }
 .contact div nav ul li a{
     color: #FFFFFF;
@@ -144,6 +144,7 @@ nav{
     }
 
 } */
+
 
 
 
