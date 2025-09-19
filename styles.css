@@ -125,13 +125,14 @@ nav{
         position: absolute;
         background: #E7DDFF;
         height: 100vh;
-        weight: 40%;
+        width: 40%;
         top: 0;
         right: 0;
         text-align: left;
         z-index: 2;
     }
 }
+
 
 
 
