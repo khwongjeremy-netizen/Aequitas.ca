@@ -19,7 +19,6 @@ body {
 /* this is the navigation bar*/
 nav{
     display: flex;
-    padding: 2% 0%;
     justify-content: space-between;
     align-items: center;
 }
@@ -30,7 +29,6 @@ nav{
 .pages ul li{
     list-style: none;
     display: inline-block;
-    padding: 1% 2%;
     position: relative;
 }
 .pages ul li a{
@@ -146,6 +144,7 @@ nav{
     }
 
 } */
+
 
 
 
