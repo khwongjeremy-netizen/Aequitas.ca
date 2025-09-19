@@ -117,34 +117,21 @@ nav{
 .contact div nav ul{
     list-style: none;
 }
- @media screen and(max-width: 481px) {
-    .slogan{
-        font-size: 200px;
-        width: 90%;
-        color: #FFFFFF;
-        position: absolute;
-        top: 70%;
-        left: 50%;
-        transform: translate(-50%,-50%);
-        text-align: center;
-    }
-}
-@media screen and(min-width: 480px){
-    .slogan h2{
-        font-size: 20px;
+@media screen and (min-width: 480px) {
+    .pages ul li{
+        display: block;
     }
     .pages{
         position: absolute;
         background: #E7DDFF;
         height: 100vh;
-        width: 20px;
+        weight: 40%;
         top: 0;
         right: 0;
         text-align: left;
         z-index: 2;
     }
-
-} 
+}
 
 
 
