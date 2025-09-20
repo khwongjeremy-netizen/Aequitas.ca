@@ -117,10 +117,10 @@ nav{
 .contact div nav ul{
     list-style: none;
 }
-@media screen and(min-width: 1024px){
+@media screen and (max-width: 1024px){
     
 }
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px) {
     
     .pages ul li{
         display: block;
@@ -137,6 +137,7 @@ nav{
         z-index: 2;
     }
 }
+
 
 
 
