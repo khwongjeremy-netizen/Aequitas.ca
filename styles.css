@@ -118,10 +118,12 @@ nav{
     list-style: none;
 }
 @media screen and (max-width: 480px) {
+    
     .pages ul li{
         display: block;
     }
     .pages{
+        margin: 0;
         position: absolute;
         background: #E7DDFF;
         height: 100vh;
@@ -132,6 +134,7 @@ nav{
         z-index: 2;
     }
 }
+
 
 
 
