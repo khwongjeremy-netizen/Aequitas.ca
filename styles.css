@@ -1,4 +1,4 @@
-@media screen and(min-width: 1024px){
+
     html, body {
         background-color: #FFFFFF;
         overflow-x: hidden;
@@ -118,6 +118,8 @@
     .contact div nav ul{
         list-style: none;
     }
+@media screen and(min-width: 1024px){
+    
 }
 @media screen and (min-width: 480px) {
     
@@ -136,6 +138,7 @@
         z-index: 2;
     }
 }
+
 
 
 
