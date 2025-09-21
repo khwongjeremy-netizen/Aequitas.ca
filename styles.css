@@ -118,7 +118,9 @@ nav{
     list-style: none;
 }
 @media screen and (max-width: 481px){
-    
+    nav .fa{
+        display: none;
+    }
 }
 @media screen and (max-width: 480px) {
     
@@ -132,11 +134,22 @@ nav{
         height: 100%;
         width: 40%;
         top: 0;
-        right: 0;
+        right: -200px;
         text-align: left;
         z-index: 2;
     }
+    nav .fa{
+        display: block;
+        color: #000000
+        margin: 1%;
+        font-size: 22px;
+        cursor: pointer
+    }
+    .pages ul{
+        padding: 30px;
+    }
 }
+
 
 
 
