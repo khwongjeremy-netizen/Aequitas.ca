@@ -22,12 +22,8 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
-.pages nav i{
+nav .fa-solid {
     display: none;
-}
-.pages nav div i{
-    display: none;
-
 }
 .pages{
     flex: 1;
@@ -153,6 +149,7 @@ nav{
         padding: 30px;
     }
 }
+
 
 
 
