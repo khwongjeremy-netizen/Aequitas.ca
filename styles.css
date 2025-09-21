@@ -117,7 +117,7 @@ nav{
 .contact div nav ul{
     list-style: none;
 }
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 481px){
     
 }
 @media screen and (max-width: 480px) {
@@ -137,6 +137,7 @@ nav{
         z-index: 2;
     }
 }
+
 
 
 
