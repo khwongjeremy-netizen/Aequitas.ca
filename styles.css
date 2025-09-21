@@ -129,7 +129,7 @@ nav{
         margin: 0;
         position: absolute;
         background: #E7DDFF;
-        height: 100vh;
+        height: 100%;
         width: 40%;
         top: 0;
         right: 0;
@@ -137,6 +137,7 @@ nav{
         z-index: 2;
     }
 }
+
 
 
 
