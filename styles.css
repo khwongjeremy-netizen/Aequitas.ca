@@ -138,6 +138,9 @@ nav{
         text-align: left;
         z-index: 2;
     }
+    nav .fa-solid {
+    display: block;
+    }
     nav .fa{
         display: block;
         color: #000000
@@ -149,6 +152,7 @@ nav{
         padding: 30px;
     }
 }
+
 
 
 
