@@ -121,6 +121,9 @@ nav .fa-solid {
     list-style: none;
 }
 @media screen and (max-width: 481px){
+    nav .fa-solid {
+    display: none;
+    }
 }
 @media screen and (max-width: 480px) {
     
@@ -149,6 +152,7 @@ nav .fa-solid {
         padding: 30px;
     }
 }
+
 
 
 
