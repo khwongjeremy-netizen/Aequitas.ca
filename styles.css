@@ -38,7 +38,7 @@ nav .fa-solid {
 .pages ul li a{
     color: white;
     text-decoration: none;
-    font-size: 30%;
+    font-size: 2rem;
     font-family: "Lucida Console", "Courier New", monospace;
     
 }
@@ -125,7 +125,9 @@ nav .fa-solid {
     display: none;
 }
 @media screen and (max-width: 480px) {
-    
+    .slogan {
+        font-size: 6rem;
+    }
     .pages ul li{
         display: block;
     }
@@ -148,13 +150,14 @@ nav .fa-solid {
         display: block;
         color: #000000
         margin: 1%;
-        font-size: 22px;
+        font-size: 4rem;
         cursor: pointer
     }
     .pages ul{
         padding: 30px;
     }
 }
+
 
 
 
