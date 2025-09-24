@@ -123,10 +123,11 @@ nav .fa-solid {
 @media screen and (max-width: 481px){
     nav .fa-solid {
     display: none;
+    }
 }
 @media screen and (max-width: 480px) {
     .slogan {
-        font-size: 6rem;
+        font-size: 2rem;
     }
     .pages ul li{
         display: block;
@@ -148,58 +149,15 @@ nav .fa-solid {
     }
     nav .fa{
         display: block;
-        color: #000000
+        color: #000000;
         margin: 1%;
-        font-size: 4rem;
-        cursor: pointer
+        font-size: 60px;
+        cursor: pointer;
     }
     .pages ul{
         padding: 30px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
