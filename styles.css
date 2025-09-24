@@ -157,7 +157,11 @@ nav .fa-solid {
     .pages ul{
         padding: 30px;
     }
+    .about div{
+    width: 100%;
+    }
 }
+
 
 
 
