@@ -56,7 +56,7 @@ nav .fa-solid {
 }
 /*slogan*/
 .slogan{
-    font-size: 2rem;
+    font-size: 40%;
     width: 90%;
     color: #FFFFFF;
     position: absolute;
@@ -80,6 +80,7 @@ nav .fa-solid {
     background-color: #E7DDFF;
     min-height: 60vh;
     width: 50%;
+    
     
 }
 /*Header of the about*/
@@ -124,10 +125,17 @@ nav .fa-solid {
     nav .fa-solid {
     display: none;
     }
+    .about div p{
+    padding: 1px;
+    text-align: center;
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-style: normal;
+    font-size: 20%;
+    }
 }
 @media screen and (max-width: 480px) {
     .slogan {
-        font-size: 2rem;
+        font-size: 30%;
     }
     .pages ul li{
         display: block;
@@ -160,7 +168,15 @@ nav .fa-solid {
     .about div{
     width: 100%;
     }
+    .about div p{
+    padding: 1px;
+    text-align: center;
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-style: normal;
+    font-size: 40%;
+    }
 }
+
 
 
 
