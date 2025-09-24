@@ -38,7 +38,7 @@ nav .fa-solid {
 .pages ul li a{
     color: white;
     text-decoration: none;
-    font-size: 20%;
+    font-size: 15px;
     font-family: "Lucida Console", "Courier New", monospace;
     
 }
@@ -56,7 +56,7 @@ nav .fa-solid {
 }
 /*slogan*/
 .slogan{
-    font-size: 40%;
+    font-size: 20px;
     width: 90%;
     color: #FFFFFF;
     position: absolute;
@@ -88,16 +88,16 @@ nav .fa-solid {
     text-align: center;
     font-family: "Fira Sans Condensed", sans-serif;
     font-style: normal;
-    font-size: 60%;
+    font-size: 30px;
     
 }
     /*Paragraph of the div*/
 .about div p{
-    padding: 1px;
+    padding: 5px;
     text-align: center;
     font-family: "Fira Sans Condensed", sans-serif;
     font-style: normal;
-    font-size: 20%;
+    font-size: 20px;
     
 }
 /*Contact div*/
@@ -113,7 +113,7 @@ nav .fa-solid {
 }
 .contact div nav ul li a i{
     margin-top: 100%;
-    font-size: 70%;
+    font-size: 50px;
 }
 .contact div nav ul li a{
     color: #FFFFFF;
@@ -134,9 +134,6 @@ nav .fa-solid {
     }
 }
 @media screen and (max-width: 480px) {
-    .slogan {
-        font-size: 30%;
-    }
     .pages ul li{
         display: block;
     }
@@ -165,17 +162,34 @@ nav .fa-solid {
     .pages ul{
         padding: 30px;
     }
+    .slogan{
+        font-size: 25px;
+    }
     .about div{
-    width: 100%;
+        width: 80%;
+    }
+    .about div h2{
+        text-align: center;
+        font-family: "Fira Sans Condensed", sans-serif;
+        font-style: normal;
+        font-size: 25px;
+    
     }
     .about div p{
-    padding: 1px;
-    text-align: center;
-    font-family: "Fira Sans Condensed", sans-serif;
-    font-style: normal;
-    font-size: 40%;
+        padding: 1px;
+        text-align: center;
+        font-family: "Fira Sans Condensed", sans-serif;
+        font-style: normal;
+        font-size: 10px;
     }
+    .contact div nav ul li a i{
+        margin-top: 100%;
+        font-size: 20px;
+    }
+    
 }
+
+
 
 
 
