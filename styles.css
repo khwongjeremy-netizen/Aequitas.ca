@@ -22,7 +22,7 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
-.pages nav h1{
+.pages h1{
     font-family: "Great Vibes", cursive;
     font-weight: 400;
     font-size: 60px;
@@ -62,7 +62,7 @@ nav .fa-solid {
 }
 /*slogan*/
 .slogan{
-    font-size: 20px;
+    font-size: 10px;
     width: 90%;
     color: #FFFFFF;
     position: absolute;
@@ -194,6 +194,7 @@ nav .fa-solid {
     }
     
 }
+
 
 
 
