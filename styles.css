@@ -22,7 +22,7 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
-nav h1{
+.pages nav h1{
     font-family: "Great Vibes", cursive;
     font-weight: 400;
     font-size: 60px;
@@ -194,6 +194,7 @@ nav .fa-solid {
     }
     
 }
+
 
 
 
