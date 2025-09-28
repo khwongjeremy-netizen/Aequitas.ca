@@ -6,7 +6,7 @@ Must update partner on changes and ask her what to add next. */
 
 
 /* the Update was a success but now our task is to make the title 
-of the website look more appealing and make the slogan not stand out over the logo*/
+of the website look more appealing on mobile */
 
 html, body {
     background-color: #FFFFFF;
@@ -17,6 +17,18 @@ body {
     margin: 0;
     padding: 0;
 }
+/*  parent/child format is this: 
+<section class=header>
+    <navigator>
+        <divider>
+            <icons>
+            <un-ordered list>
+                <list items>
+    >
+    <divider class = slogan>
+        <header2>
+*/
+
 .header{
     color: white;
     min-height: 70vh;
@@ -74,7 +86,6 @@ nav .fa-solid {
 }
 /*slogan*/
 .slogan{
-    font-size: 20px;
     width: 90%;
     color: #FFFFFF;
     position: absolute;
@@ -82,6 +93,9 @@ nav .fa-solid {
     left: 50%;
     transform: translate(-50%,-60%);
     text-align: center;
+}
+.slogan h2{
+        font-size: 20px;
 }
 /* about us div*/
 /* Just the section*/
@@ -186,7 +200,7 @@ nav .fa-solid {
         font-style: normal;
     }
     /* Slogan of the Header(From youth for youth)*/
-    .slogan{
+    .slogan h2{
         font-size: 5px;
     }
     /*ABout us divider, */
@@ -197,15 +211,15 @@ nav .fa-solid {
         text-align: center;
         font-family: "Fira Sans Condensed", sans-serif;
         font-style: normal;
-        font-size: 30px;
+        font-size: 20px;
     
     }
     .about div p{
-        padding: 1px;
+        padding: 3px;
         text-align: center;
         font-family: "Fira Sans Condensed", sans-serif;
         font-style: normal;
-        font-size: 20px;
+        font-size: 10px;
     }
     .contact div nav ul li a i{
         margin-top: 100%;
@@ -213,6 +227,7 @@ nav .fa-solid {
     }
     
 }
+
 
 
 
