@@ -200,14 +200,19 @@ nav .fa-solid {
         cursor: pointer;
     }
     /* Header or title (Aequitas) */
-    h1{
+    .slogan {
+        position: absolute;
+        top: 50%;/* aligns center*/
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    .slogan h1{
         font-family: "Great Vibes", cursive;
         font-weight: 400;
         font-size: 40px;
         font-style: normal;
     }
-    /* Slogan of the Header(From youth for youth)*/
-    .slogan{
+    .slogan h2{
         font-size: 5px;
     }
     /*ABout us divider, */
@@ -234,6 +239,7 @@ nav .fa-solid {
     }
     
 }
+
 
 
 
