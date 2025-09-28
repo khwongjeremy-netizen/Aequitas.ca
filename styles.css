@@ -77,26 +77,27 @@ nav .fa-solid {
     width: 100%;
 }
 /*slogan*/
-.slogan{
+.slogan {
+    position: absolute;
+    top: 50%;  /* center vertically */
+    left: 50%; /* center horizontally */
+    transform: translate(-50%, -50%);
+    text-align: center;
+
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 5px;
-    width: 90%;
-    color: #FFFFFF;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    gap: 5px; /* spacing between h1 and h2 */
 }
-.slogan h2{
-    font-size: 10px;
-}
-.slogan h1{
+.slogan h1 {
     font-family: "Great Vibes", cursive;
     font-weight: 400;
     font-size: 100px;
-    font-style: normal;
+    margin: 0;
+}
+.slogan h2 {
+    font-size: 18px;
+    margin: 0;
 }
 /* about us div*/
 /* Just the section*/
@@ -193,22 +194,13 @@ nav .fa-solid {
         font-size: 20px;
         cursor: pointer;
     }
-    /* Header or title (Aequitas) */
-    .slogan {
-        position: absolute;
-        top: 50%;/* aligns center*/
-        left: 50%;
-        transform: translate(-50%, -50%);
-        text-align: center;
-    .slogan h1{
-        font-family: "Great Vibes", cursive;
-        font-weight: 400;
+    .slogan h1 {
         font-size: 40px;
-        font-style: normal;
     }
-    .slogan h2{
-        font-size: 5px;
+    .slogan h2 {
+        font-size: 12px;
     }
+    /* Header or title (Aequitas) */
     /*ABout us divider, */
     .about div{
         width: 80%;
@@ -233,6 +225,7 @@ nav .fa-solid {
     }
     
 }
+
 
 
 
