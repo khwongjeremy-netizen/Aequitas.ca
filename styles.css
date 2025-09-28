@@ -78,14 +78,16 @@ nav .fa-solid {
 }
 /*slogan*/
 .slogan{
-    margin: 5px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
     width: 90%;
     color: #FFFFFF;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    text-align: center;
 }
 .slogan h2{
     font-size: 10px;
@@ -231,6 +233,7 @@ nav .fa-solid {
     }
     
 }
+
 
 
 
