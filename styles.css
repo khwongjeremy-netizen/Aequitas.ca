@@ -44,15 +44,6 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
-h1{
-    display: flex;
-    justify-content: center;
-    /*This the font of the header*/
-    font-family: "Great Vibes", cursive;
-    font-weight: 400;
-    font-size: 100px;
-    font-style: normal;
-}
 nav .fa-solid {
     display: none;
 }
@@ -87,6 +78,7 @@ nav .fa-solid {
 }
 /*slogan*/
 .slogan{
+    margin: 5px 0 0 0;
     width: 90%;
     color: #FFFFFF;
     position: absolute;
@@ -239,6 +231,7 @@ nav .fa-solid {
     }
     
 }
+
 
 
 
