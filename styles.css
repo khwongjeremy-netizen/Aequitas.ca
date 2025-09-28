@@ -4,14 +4,9 @@ improved the style of the mobile viewport.
 Started working on the other pages of the website(Donate section and goals).
 Must update partner on changes and ask her what to add next. */
 
-/* Problems that occured during the update: 
-Aequitas title was not centered, slogan still seemed of relative size if not 
-equall to the title on smaller screens.*/
 
-/*Percieved solution: for the header maybe text align was the wrong type of center only centering a specific way that didn't work,
-maybe the origiional query for the main that remains the same didn't come into effect when I told it to go center making it not work 
-for the mobile query either*/
-
+/* the Update was a success but now our task is to make the title 
+of the website look more appealing and make the slogan not stand out over the logo*/
 
 html, body {
     background-color: #FFFFFF;
@@ -42,7 +37,7 @@ h1{
     justify-content: center;
     font-family: "Great Vibes", cursive;
     font-weight: 400;
-    font-size: 60px;
+    font-size: 100px;
     font-style: normal;
 }
 nav .fa-solid {
@@ -61,7 +56,7 @@ nav .fa-solid {
 .pages ul li a{
     color: white;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 10px;
     font-family: "Lucida Console", "Courier New", monospace;
     
 }
@@ -79,13 +74,13 @@ nav .fa-solid {
 }
 /*slogan*/
 .slogan{
-    font-size: 10px;
+    font-size: 20px;
     width: 90%;
     color: #FFFFFF;
     position: absolute;
     top: 70%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-60%);
     text-align: center;
 }
 /* about us div*/
@@ -178,12 +173,9 @@ nav .fa-solid {
     }
     nav .fa-solid {
         display: block;
-    }
-    nav .fa{
-        display: block;
         color: #000000;
         margin: 1%;
-        font-size: 60px;
+        font-size: 20px;
         cursor: pointer;
     }
     /* Header or title (Aequitas) */
@@ -195,7 +187,7 @@ nav .fa-solid {
     }
     /* Slogan of the Header(From youth for youth)*/
     .slogan{
-        font-size: 25px;
+        font-size: 5px;
     }
     /*ABout us divider, */
     .about div{
@@ -221,6 +213,7 @@ nav .fa-solid {
     }
     
 }
+
 
 
 
