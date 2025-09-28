@@ -96,6 +96,15 @@ nav .fa-solid {
     transform: translate(-50%,-60%);
     text-align: center;
 }
+h1{
+    display: flex;
+    justify-content: center;
+    /*This the font of the header*/
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-size: 100px;
+    font-style: normal;
+}
 /* about us div*/
 /* Just the section*/
 .about {
@@ -226,6 +235,7 @@ nav .fa-solid {
     }
     
 }
+
 
 
 
