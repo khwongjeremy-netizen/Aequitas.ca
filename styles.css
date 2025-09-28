@@ -46,9 +46,7 @@ nav{
 }
 h1{
     display: flex;
-    align-items: center;
     justify-content: center;
-    position: absolute;
     /*This the font of the header*/
     font-family: "Great Vibes", cursive;
     font-weight: 400;
@@ -228,6 +226,7 @@ nav .fa-solid {
     }
     
 }
+
 
 
 
