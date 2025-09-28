@@ -78,17 +78,17 @@ nav .fa-solid {
 }
 /*slogan*/
 .slogan {
-    display: flex;
+    position: absolute;
     top: 50%;
     left: 50%;
-    position: absolute;
     transform: translate(-50%, -50%);
     text-align: center;
 
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 5px; /* spacing between h1 and h2 */
+    gap: 5px;
+    width: max-content;
 }
 .slogan h1 {
     font-family: "Great Vibes", cursive;
@@ -226,6 +226,7 @@ nav .fa-solid {
     }
     
 }
+
 
 
 
