@@ -1,3 +1,10 @@
+/* Comment my changes section: 
+2025-09-28:  Made the title bigger and centered it, 
+improved the style of the mobile viewport.
+Started working on the other pages of the website(Donate section and goals).
+Must update partner on changes and ask her what to add next. */
+
+
 html, body {
     background-color: #FFFFFF;
     overflow-x: hidden;
@@ -23,6 +30,7 @@ nav{
     align-items: center;
 }
 h1{
+    text-align: center;
     font-family: "Great Vibes", cursive;
     font-weight: 400;
     font-size: 60px;
@@ -129,17 +137,18 @@ nav .fa-solid {
 }
 @media screen and (max-width: 481px){
     nav .fa-solid {
-    display: none;
+        display: none;
     }
     .about div p{
-    padding: 1px;
-    text-align: center;
-    font-family: "Fira Sans Condensed", sans-serif;
-    font-style: normal;
-    font-size: 20%;
+        padding: 1px;
+        text-align: center;
+        font-family: "Fira Sans Condensed", sans-serif;
+        font-style: normal;
+        font-size: 20%;
     }
 }
 @media screen and (max-width: 480px) {
+    /*Pages or navigator  queries*/
     .pages ul li{
         display: block;
     }
@@ -155,8 +164,11 @@ nav .fa-solid {
         z-index: 2;
         transition: 1s;
     }
+    .pages ul{
+        padding: 30px;
+    }
     nav .fa-solid {
-    display: block;
+        display: block;
     }
     nav .fa{
         display: block;
@@ -165,12 +177,18 @@ nav .fa-solid {
         font-size: 60px;
         cursor: pointer;
     }
-    .pages ul{
-        padding: 30px;
+    /* Header or title (Aequitas) */
+    h1{
+        font-family: "Great Vibes", cursive;
+        font-weight: 400;
+        font-size: 40px;
+        font-style: normal;
     }
+    /* Slogan of the Header(From youth for youth)*/
     .slogan{
         font-size: 25px;
     }
+    /*ABout us divider, */
     .about div{
         width: 80%;
     }
@@ -178,7 +196,7 @@ nav .fa-solid {
         text-align: center;
         font-family: "Fira Sans Condensed", sans-serif;
         font-style: normal;
-        font-size: 25px;
+        font-size: 30px;
     
     }
     .about div p{
@@ -186,7 +204,7 @@ nav .fa-solid {
         text-align: center;
         font-family: "Fira Sans Condensed", sans-serif;
         font-style: normal;
-        font-size: 10px;
+        font-size: 20px;
     }
     .contact div nav ul li a i{
         margin-top: 100%;
@@ -194,6 +212,7 @@ nav .fa-solid {
     }
     
 }
+
 
 
 
