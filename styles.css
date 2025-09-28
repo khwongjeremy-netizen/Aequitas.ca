@@ -4,6 +4,14 @@ improved the style of the mobile viewport.
 Started working on the other pages of the website(Donate section and goals).
 Must update partner on changes and ask her what to add next. */
 
+/* Problems that occured during the update: 
+Aequitas title was not centered, slogan still seemed of relative size if not 
+equall to the title on smaller screens.*/
+
+/*Percieved solution: for the header maybe text align was the wrong type of center only centering a specific way that didn't work,
+maybe the origiional query for the main that remains the same didn't come into effect when I told it to go center making it not work 
+for the mobile query either*/
+
 
 html, body {
     background-color: #FFFFFF;
@@ -30,7 +38,8 @@ nav{
     align-items: center;
 }
 h1{
-    text-align: center;
+    display: flex;
+    justify-content: center;
     font-family: "Great Vibes", cursive;
     font-weight: 400;
     font-size: 60px;
@@ -212,6 +221,7 @@ nav .fa-solid {
     }
     
 }
+
 
 
 
