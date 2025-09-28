@@ -78,6 +78,7 @@ nav .fa-solid {
 }
 /*slogan*/
 .slogan {
+    position: absolute;
     top: 50%;  /* center vertically */
     left: 50%; /* center horizontally */
     transform: translate(-50%, -50%);
@@ -224,6 +225,7 @@ nav .fa-solid {
     }
     
 }
+
 
 
 
