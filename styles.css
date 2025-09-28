@@ -46,7 +46,10 @@ nav{
 }
 h1{
     display: flex;
+    align-items: center;
     justify-content: center;
+    position: absolute;
+    /*This the font of the header*/
     font-family: "Great Vibes", cursive;
     font-weight: 400;
     font-size: 100px;
@@ -68,7 +71,7 @@ nav .fa-solid {
 .pages ul li a{
     color: white;
     text-decoration: none;
-    font-size: 10px;
+    font-size: 20px;
     font-family: "Lucida Console", "Courier New", monospace;
     
 }
@@ -95,7 +98,7 @@ nav .fa-solid {
     text-align: center;
 }
 .slogan h2{
-        font-size: 20px;
+        font-size: 10px;
 }
 /* about us div*/
 /* Just the section*/
@@ -227,6 +230,7 @@ nav .fa-solid {
     }
     
 }
+
 
 
 
