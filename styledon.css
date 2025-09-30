@@ -8,29 +8,28 @@ html, body {
     color: white;
     min-height: 70vh;
     width: 100%;
+    background: linear-gradient(to right, black , grey  );
     background-position: center;
     background-size: cover;
     position: relative;
 }
 /* this is the navigation bar*/
 nav{
-    background: black;
-    width:100%;
-    min-height: 10vh;
     display: flex;
-    padding: 2% 6%;
     justify-content: space-between;
     align-items: center;
+}
+nav .fa-solid {
+    display: none;
 }
 .pages{
     flex: 1;
     text-align: right;
-    margin-right: 10%;
+    margin-right: 5%;
 }
 .pages ul li{
     list-style: none;
     display: inline-block;
-    padding: 5px 8px;
     position: relative;
 }
 .pages ul li a{
@@ -38,7 +37,7 @@ nav{
     text-decoration: none;
     font-size: 20px;
     font-family: "Lucida Console", "Courier New", monospace;
-
+    
 }
 .pages ul li::after{
     content:'';
@@ -50,7 +49,7 @@ nav{
     transition: 0.5s;
 }
 .pages ul li:hover::after{
-    width:100%;
+    width: 100%;
 }
 /* Donation page items */
 .random .dona form{
@@ -143,4 +142,5 @@ nav{
         text-align: left;
         z-index: 2;
     }
+
 } */
