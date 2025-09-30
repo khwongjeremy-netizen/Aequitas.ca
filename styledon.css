@@ -2,10 +2,11 @@ html, body {
     background-color: #FFFFFF;
     overflow-x: hidden;
     width: 100;
+}
+body{
     margin: 0;
     padding: 0;
 }
-
 .header{
     color: white;
     min-height: 40vh
@@ -146,4 +147,5 @@ nav .fa-solid {
     }
 
 } */
+
 
