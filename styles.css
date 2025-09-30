@@ -137,7 +137,6 @@ nav .fa-solid {
 }
 /*Contact div*/
 .contact {
-    bottom: 0;
     margin: 30%;
     background-color: #000000;
     width: 100%;
@@ -227,6 +226,7 @@ nav .fa-solid {
     }
     
 }
+
 
 
 
