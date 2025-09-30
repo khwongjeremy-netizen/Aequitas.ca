@@ -211,15 +211,15 @@ nav .fa-solid {
         text-align: center;
         font-family: "Fira Sans Condensed", sans-serif;
         font-style: normal;
-        font-size: 20px;
+        font-size: 30px;
     
     }
     .about div p{
-        padding: 3px;
+        padding: 5px;
         text-align: center;
         font-family: "Fira Sans Condensed", sans-serif;
         font-style: normal;
-        font-size: 10px;
+        font-size: 20px;
     }
     .contact div nav ul li a i{
         margin-top: 100%;
@@ -227,6 +227,7 @@ nav .fa-solid {
     }
     
 }
+
 
 
 
