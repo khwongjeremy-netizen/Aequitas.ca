@@ -55,13 +55,17 @@ nav .fa-solid {
     width: 100%;
 }
 /* Donation page items */
+.random{
+
+    
+}
 .random .dona form{
     background-color: #E7DDFF;
     left: 38%;
     top: 35%;
     width: 25%;
     height: 50vh;
-    position: absolute;
+    position: relative;
 }
 .random .dona form div label{
     font-family: "Lucida Console", "Courier New", monospace;
@@ -147,6 +151,7 @@ nav .fa-solid {
     }
 
 } */
+
 
 
 
