@@ -27,6 +27,58 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #fafafa 0%, #ffffff 100%);
+    min-height: 100vh;
+}
+.header {
+    color: white;
+    min-height: 40vh;
+    width: 100%;
+    background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+/* this is the navigation bar*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .fa-solid {
+    display: none;
+}
+.pages {
+    flex: 1;
+    text-align: right;
+    margin-right: 5%;
+}
+.pages ul li {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+.pages ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.pages ul li::after {
+    content:'';
+    width: 0%;
+    height: 2px;
+    background: white;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.pages ul li:hover::after {
+    width: 100%;
+}
 .pages{
     flex: 1;
     text-align: right;
@@ -92,6 +144,40 @@ nav{
 .goals div:hover {
     transform: translateY(-8px);
     box-shadow: 0 25px 70px rgba(35, 35, 123, 0.2), 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: auto;
+    padding: 60px 20px;
+    background: linear-gradient(180deg, #f5f3f6 0%, #efecf0 100%);
+    margin: 40px 0;
+    border-top: 1px solid #d9ccd9;
+    border-bottom: 1px solid #d9ccd9;
+}
+.goals div {
+    background: solid #23237B;
+    width: 100%;
+    max-width: 500px;
+    padding: 70px 60px;
+    border-radius: 20px;
+    box-shadow: 0 20px 60px rgba(35, 35, 123, 0.12), 0 8px 25px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+}
+.goals div:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 25px 70px rgba(35, 35, 123, 0.18), 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+.goals div p {
+    font-family: 'Georgia', 'Garamond', serif;
+    font-size: 32px;
+    font-weight: 500;
+    color: #FFFFFF;
+    display: block;
+    margin: 0;
+    letter-spacing: -0.5px;
+    line-height: 1.4;
 }
 /* contact*/
 .contact {
