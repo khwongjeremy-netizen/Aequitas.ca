@@ -2,19 +2,23 @@ html, body {
     background-color: #FFFFFF;
     overflow-x: hidden;
     width: 100;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 body{
     margin: 0;
     padding: 0;
+    background: linear-gradient(135deg, #f5f5f5 0%, #ffffff 100%);
+    min-height: 100vh;
 }
 .header{
     color: white;
     min-height: 40vh;
     width: 100%;
-    background: black;
+    background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
     background-position: center;
     background-size: cover;
     position: relative;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 /* this is the navigation bar*/
 nav{
@@ -56,74 +60,203 @@ nav .fa-solid {
 }
 /* Donation page items */
 .random{
-
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    padding: 40px 20px;
 }
 .random .dona form{
     background-color: #E7DDFF;
-    left: 38%;
-    top: 35%;
-    width: 25%;
-    height: 50vh;
-    position: relative;
+    width: 100%;
+    max-width: 450px;
+    padding: 50px 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.random .dona form:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
 }
 .random .dona form div label{
-    font-family: "Lucida Console", "Courier New", monospace;
-    font-size: 30px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: #2a2a2a;
+    display: block;
+    margin-bottom: 10px;
 }
 .random .dona form input[type="text"]{
-    width: 90%;
-    padding: 12px;
-    margin: 30px auto;
+    width: 100%;
+    padding: 14px 16px;
+    margin: 25px 0;
     display: block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    border: 2px solid #d4c5e2;
+    border-radius: 8px;
     box-sizing: border-box;
-
+    font-size: 16px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+.random .dona form input[type="text"]:focus{
+    outline: none;
+    border-color: #8b5cf6;
+    box-shadow: 0 0 0 3px rgba(139, 92, 246, 0.1);
 }
 .random .dona form div{
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 12px;
+    margin-top: 30px;
 }
 .random .dona form div button{
-    height: 10vh;
-    width: 33%;
+    flex: 1;
+    padding: 16px 20px;
     display: block;
-    border-radius: 5px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #8b5cf6;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.random .dona form div button:hover{
+    background-color: #7c3aed;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(139, 92, 246, 0.3);
+}
+.random .dona form div button:active{
+    transform: translateY(0);
 }
 .random .dona form .di{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(255, 255, 255, 0.381);
-    height: 10vh;
-    width: 100%;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
 }
 
 /* contact*/
 .contact {
     bottom: 0;
-    background-color: #000000;
+    background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
     width: 100%;
-    height: 50vh;
+    min-height: 40vh;
     position: relative;
+    padding: 60px 20px;
+    text-align: center;
+    box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.2);
 }
 .contact div hr{
-    color: #fff;
+    color: rgba(255, 255, 255, 0.3);
     width: 100%;
+    max-width: 600px;
+    margin: 30px auto;
+    border: none;
+    height: 1px;
+    background: linear-gradient(to right, transparent, rgb(255,255,255), transparent);
 }
 .contact div nav ul li a i{
-    margin-top: 100%;
-    font-size: 50px;
+    font-size: 45px;
+    transition: all 0.3s ease;
+}
+.contact div nav ul li a i:hover{
+    transform: scale(1.15);
+    color: #8b5cf6;
 }
 .contact div nav ul li a{
     color: #FFFFFF;
+    display: inline-block;
+    margin: 0 20px;
 }
 .contact div nav ul{
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .header {
+        min-height: 35vh;
+    }
+    
+    .pages ul li a {
+        font-size: 16px;
+    }
+    
+    .random .dona form {
+        max-width: 100%;
+        padding: 40px 30px;
+    }
+    
+    .random .dona form div label {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .header {
+        min-height: 30vh;
+    }
+    
+    .pages {
+        margin-right: 2%;
+    }
+    
+    .pages ul li a {
+        font-size: 14px;
+    }
+    
+    .random {
+        padding: 30px 10px;
+        min-height: 50vh;
+    }
+    
+    .random .dona form {
+        padding: 30px 20px;
+    }
+    
+    .random .dona form div label {
+        font-size: 20px;
+    }
+    
+    .random .dona form input[type="text"] {
+        margin: 20px 0;
+        padding: 12px 14px;
+        font-size: 14px;
+    }
+    
+    .random .dona form div {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 20px;
+    }
+    
+    .random .dona form div button {
+        padding: 14px 16px;
+        font-size: 14px;
+    }
+    
+    .contact {
+        min-height: 30vh;
+        padding: 40px 10px;
+    }
+    
+    .contact div nav ul li a {
+        margin: 0 10px;
+    }
+    
+    .contact div nav ul li a i {
+        font-size: 35px;
+    }
+}
+
 /* @media screen and(max-width: 481px) {
     .slogan{
         font-size: 200px;
