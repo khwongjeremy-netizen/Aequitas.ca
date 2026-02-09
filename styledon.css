@@ -71,7 +71,7 @@ nav .fa-solid {
     border-bottom: 1px solid #d9ccd9;
 }
 .random .dona form{
-    background: linear-gradient(135deg, #D8C6D8 0%, #E8DFE8 100%);
+    background-color: #D8C6D8;
     width: 100%;
     max-width: 500px;
     padding: 70px 60px;
