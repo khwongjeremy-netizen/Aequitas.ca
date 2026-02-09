@@ -111,43 +111,79 @@ nav .fa-solid {
 /* about us div*/
 /* Just the section*/
 .about {
-    margin-top: 30%;
+    margin-top: 5%;
     display: grid;
     place-items: center;
-    min-height: 60vh;
+    min-height: 70vh;
     width: 100%;
-    padding: 40px 0;
+    padding: 60px 20px;
+    background: linear-gradient(180deg, #fafafa 0%, #f5f3f6 100%);
 }
     /* About div reality*/
 .about div{
-    padding: 50px;
+    padding: 70px 60px;
     background: linear-gradient(135deg, #D8C6D8 0%, #E8DFE8 100%);
-    min-height: 60vh;
+    min-height: auto;
     width: 50%;
     border-radius: 20px;
-    box-shadow: 0 20px 60px rgba(107, 76, 154, 0.12), 0 8px 25px rgba(0, 0, 0, 0.08);
-    border: 1px solid rgba(255, 255, 255, 0.6);
+    box-shadow: 0 20px 60px rgba(107, 76, 154, 0.15), 0 8px 25px rgba(0, 0, 0, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.about div::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -50%;
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.3) 0%, transparent 70%);
+    pointer-events: none;
+}
+.about div:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 25px 70px rgba(107, 76, 154, 0.2), 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 /*Header of the about*/
 .about div h2{
     text-align: center;
     font-family: 'Georgia', 'Garamond', serif;
     font-style: normal;
-    font-size: 36px;
+    font-size: 40px;
     color: #5D4E60;
-    margin-top: 0;
+    margin: 0 0 25px 0;
     font-weight: 500;
-    letter-spacing: -0.5px;
+    letter-spacing: -0.8px;
+    position: relative;
+    z-index: 1;
+    padding-bottom: 20px;
+}
+.about div h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background: linear-gradient(90deg, transparent, #6B4C9A, transparent);
+    border-radius: 2px;
 }
     /*Paragraph of the div*/
 .about div p{
-    padding: 20px;
+    padding: 0 20px;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, sans-serif;
     font-style: normal;
     font-size: 16px;
-    color: #4a4a4a;
-    line-height: 1.8;
+    color: #3a3a3a;
+    line-height: 1.9;
+    margin: 0;
+    position: relative;
+    z-index: 1;
+    font-weight: 400;
 }
 /*Contact div*/
 .contact {
@@ -188,6 +224,7 @@ nav .fa-solid {
     padding: 0;
     margin: 0;
 }
+
 @media screen and (max-width: 481px){
     nav .fa-solid {
         display: none;
@@ -218,21 +255,27 @@ nav .fa-solid {
     
     .about {
         margin-top: 20%;
+        padding: 50px 20px;
     }
     
     .about div {
         width: 65%;
-        padding: 40px;
+        padding: 55px 45px;
+        border-radius: 20px;
     }
     
     .about div h2 {
-        font-size: 32px;
+        font-size: 36px;
+        padding-bottom: 18px;
     }
     
     .about div p {
-        font-size: 15px;
+        font-size: 16px;
+        padding: 0 15px;
+        line-height: 1.9;
     }
 }
+
 @media screen and (max-width: 480px) {
     /*Pages or navigator  queries*/
     .pages ul li{
@@ -268,26 +311,41 @@ nav .fa-solid {
         font-size: 15px;
     }
     /* Header or title (Aequitas) */
-    /*ABout us divider, */
+    /*ABout us divider */
+    .about {
+        margin-top: 15%;
+        padding: 40px 15px;
+        min-height: auto;
+    }
+    
     .about div{
-        width: 85%;
-        padding: 40px 30px;
+        width: 90%;
+        padding: 55px 40px;
+        min-height: auto;
+        border-radius: 18px;
     }
     .about div h2{
         text-align: center;
         font-family: 'Georgia', 'Garamond', serif;
         font-style: normal;
-        font-size: 28px;
+        font-size: 30px;
         color: #5D4E60;
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+        font-weight: 500;
+    }
+    .about div h2::after {
+        width: 65px;
+        height: 3px;
     }
     .about div p{
-        padding: 15px;
+        padding: 0 10px;
         text-align: center;
         font-family: 'Segoe UI', Tahoma, Geneva, sans-serif;
         font-style: normal;
         font-size: 15px;
-        color: #4a4a4a;
-        line-height: 1.6;
+        color: #3a3a3a;
+        line-height: 1.8;
     }
     .contact div nav ul li a i{
         font-size: 35px;
