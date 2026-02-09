@@ -12,10 +12,12 @@ html, body {
     background-color: #FFFFFF;
     overflow-x: hidden;
     width: 100;
+    font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
 }
 body {
     margin: 0;
     padding: 0;
+    background: linear-gradient(135deg, #fafafa 0%, #ffffff 100%);
 }
 /*  parent/child format is this: 
 <section class=header>
@@ -33,10 +35,11 @@ body {
     color: white;
     min-height: 70vh;
     width: 100%;
-    background: linear-gradient(to right, black , grey  );
+    background: linear-gradient(135deg, #1a1a1a 0%, #3d3d3d 100%);
     background-position: center;
     background-size: cover;
     position: relative;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
 }
 /* this is the navigation bar*/
 nav{
@@ -60,7 +63,7 @@ nav .fa-solid {
 .pages ul li a{
     color: white;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 24px;
     font-family: "Lucida Console", "Courier New", monospace;
     
 }
@@ -95,10 +98,15 @@ nav .fa-solid {
     font-weight: 400;
     font-size: 100px;
     margin: 0;
+    color: #FFFFFF;
+    text-shadow: 2px 4px 8px rgba(0, 0, 0, 0.3);
 }
 .slogan h2 {
     font-size: 18px;
     margin: 0;
+    color: #E8D5E8;
+    font-weight: 300;
+    letter-spacing: 1px;
 }
 /* about us div*/
 /* Just the section*/
@@ -108,55 +116,77 @@ nav .fa-solid {
     place-items: center;
     min-height: 60vh;
     width: 100%;
+    padding: 40px 0;
 }
     /* About div reality*/
 .about div{
-    padding: 1px;
-    background-color: #E7DDFF;
+    padding: 50px;
+    background: linear-gradient(135deg, #D8C6D8 0%, #E8DFE8 100%);
     min-height: 60vh;
     width: 50%;
-    
-    
+    border-radius: 20px;
+    box-shadow: 0 20px 60px rgba(107, 76, 154, 0.12), 0 8px 25px rgba(0, 0, 0, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.6);
 }
 /*Header of the about*/
 .about div h2{
     text-align: center;
-    font-family: "Fira Sans Condensed", sans-serif;
+    font-family: 'Georgia', 'Garamond', serif;
     font-style: normal;
-    font-size: 30px;
-    
+    font-size: 36px;
+    color: #5D4E60;
+    margin-top: 0;
+    font-weight: 500;
+    letter-spacing: -0.5px;
 }
     /*Paragraph of the div*/
 .about div p{
-    padding: 5px;
+    padding: 20px;
     text-align: center;
-    font-family: "Fira Sans Condensed", sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, sans-serif;
     font-style: normal;
-    font-size: 20px;
-    
+    font-size: 16px;
+    color: #4a4a4a;
+    line-height: 1.8;
 }
 /*Contact div*/
 .contact {
     bottom: 0;
     margin-top: 30%;
-    background-color: #000000;
+    background: linear-gradient(135deg, #1a1a1a 0%, #3d3d3d 100%);
     width: 100%;
-    height: 50vh;
+    min-height: 50vh;
     position: relative;
+    padding: 80px 20px;
+    text-align: center;
+    box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.2);
 }
 .contact div hr{
-    color: #fff;
+    color: rgba(255, 255, 255, 0.3);
     width: 100%;
+    max-width: 600px;
+    margin: 30px auto;
+    border: none;
+    height: 1px;
+    background: linear-gradient(to right, transparent, rgb(255,255,255), transparent);
 }
 .contact div nav ul li a i{
-    margin-top: 100%;
-    font-size: 50px;
+    font-size: 45px;
+    transition: all 0.3s ease;
+}
+.contact div nav ul li a i:hover{
+    transform: scale(1.15);
+    color: #D4A574;
 }
 .contact div nav ul li a{
     color: #FFFFFF;
+    display: inline-block;
+    margin: 0 20px;
 }
 .contact div nav ul{
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 @media screen and (max-width: 481px){
     nav .fa-solid {
@@ -165,9 +195,42 @@ nav .fa-solid {
     .about div p{
         padding: 1px;
         text-align: center;
-        font-family: "Fira Sans Condensed", sans-serif;
+        font-family: 'Segoe UI', Tahoma, Geneva, sans-serif;
         font-style: normal;
-        font-size: 20%;
+        font-size: 16px;
+        color: #4a4a4a;
+    }
+}
+
+/* Tablet/Medium devices */
+@media screen and (max-width: 768px) {
+    .header {
+        min-height: 60vh;
+    }
+    
+    .pages ul li a {
+        font-size: 20px;
+    }
+    
+    .slogan h1 {
+        font-size: 80px;
+    }
+    
+    .about {
+        margin-top: 20%;
+    }
+    
+    .about div {
+        width: 65%;
+        padding: 40px;
+    }
+    
+    .about div h2 {
+        font-size: 32px;
+    }
+    
+    .about div p {
+        font-size: 15px;
     }
 }
 @media screen and (max-width: 480px) {
@@ -178,7 +241,7 @@ nav .fa-solid {
     .pages{
         margin: 0;
         position: absolute;
-        background: #E7DDFF;
+        background: linear-gradient(135deg, #D8C6D8 0%, #E8DFE8 100%);
         height: 100%;
         width: 40%;
         top: 0;
@@ -186,6 +249,7 @@ nav .fa-solid {
         text-align: left;
         z-index: 2;
         transition: 1s;
+        box-shadow: -4px 0 15px rgba(0, 0, 0, 0.15);
     }
     .pages ul{
         padding: 15px;
@@ -206,25 +270,27 @@ nav .fa-solid {
     /* Header or title (Aequitas) */
     /*ABout us divider, */
     .about div{
-        width: 80%;
+        width: 85%;
+        padding: 40px 30px;
     }
     .about div h2{
         text-align: center;
-        font-family: "Fira Sans Condensed", sans-serif;
+        font-family: 'Georgia', 'Garamond', serif;
         font-style: normal;
-        font-size: 30px;
-    
+        font-size: 28px;
+        color: #5D4E60;
     }
     .about div p{
-        padding: 5px;
+        padding: 15px;
         text-align: center;
-        font-family: "Fira Sans Condensed", sans-serif;
+        font-family: 'Segoe UI', Tahoma, Geneva, sans-serif;
         font-style: normal;
-        font-size: 20px;
+        font-size: 15px;
+        color: #4a4a4a;
+        line-height: 1.6;
     }
     .contact div nav ul li a i{
-        margin-top: 100%;
-        font-size: 20px;
+        font-size: 35px;
     }
     
 }
