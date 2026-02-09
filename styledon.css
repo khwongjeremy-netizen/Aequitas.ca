@@ -63,8 +63,8 @@ nav .fa-solid {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 75vh;
-    padding: 80px 20px;
+    min-height: auto;
+    padding: 50px 20px;
     background-color: #FFFFFF;
     margin: 30px 0;
     border-top: 1px solid #e0e0e0;
@@ -197,14 +197,14 @@ nav .fa-solid {
     }
     
     .random {
-        min-height: 65vh;
-        padding: 60px 20px;
+        min-height: auto;
+        padding: 45px 20px;
         margin: 25px 0;
     }
     
     .random .dona form {
         max-width: 100%;
-        padding: 45px 35px;
+        padding: 40px 30px;
     }
     
     .random .dona form div label {
@@ -226,13 +226,13 @@ nav .fa-solid {
     }
     
     .random {
-        padding: 60px 10px;
-        min-height: 60vh;
+        padding: 40px 10px;
+        min-height: auto;
         margin: 20px 0;
     }
     
     .random .dona form {
-        padding: 40px 25px;
+        padding: 35px 20px;
     }
     
     .random .dona form div label {
