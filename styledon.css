@@ -12,13 +12,13 @@ body{
 }
 .header{
     color: white;
-    min-height: 40vh;
+    min-height: 70vh;
     width: 100%;
-    background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
+    background: linear-gradient(to right, black, grey);
     background-position: center;
     background-size: cover;
     position: relative;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
 }
 /* this is the navigation bar*/
 nav{
@@ -57,6 +57,34 @@ nav .fa-solid {
 }
 .pages ul li:hover::after{
     width: 100%;
+}
+/* slogan */
+.slogan {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 40%);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    width: max-content;
+}
+.slogan h1 {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-size: 100px;
+    margin: 0;
+    color: #FFFFFF;
+    text-shadow: 2px 4px 8px rgba(0, 0, 0, 0.3);
+}
+.slogan h2 {
+    font-size: 18px;
+    margin: 0;
+    color: #E8D5E8;
+    font-weight: 300;
+    letter-spacing: 1px;
 }
 /* Donation page items */
 .random{
@@ -197,12 +225,14 @@ nav .fa-solid {
     list-style: none;
     padding: 0;
     margin: 0;
+    text-align: left;
+    margin-bottom: 30px;
 }
 
 /* Responsive Design */
 @media screen and (max-width: 768px) {
     .header {
-        min-height: 35vh;
+        min-height: 60vh;
     }
     
     .pages ul li a {
@@ -227,7 +257,7 @@ nav .fa-solid {
 
 @media screen and (max-width: 480px) {
     .header {
-        min-height: 30vh;
+        min-height: 50vh;
     }
     
     .pages {
