@@ -9,10 +9,7 @@ html, body {
 body {
     margin: 0;
     padding: 0;
-    padding-bottom: 45vh;
     background: linear-gradient(135deg, #fafafa 0%, #ffffff 100%);
-    color: #222222;
-    min-height: 100vh;
 }
 
 /* Header  */
