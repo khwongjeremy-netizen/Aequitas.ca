@@ -285,15 +285,15 @@ main.container {
 
 /* Contact footer */
 .contact {
-    bottom: 0;
-    margin-top: 30%;
     background-color: #000000;
-    width: 100%;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
     min-height: 50vh;
-    position: relative;
+    margin-top: 30%;
     padding: 80px 20px;
     text-align: center;
     box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
 }
 .contact div hr{
     color: rgba(255, 255, 255, 0.3);
