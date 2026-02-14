@@ -195,7 +195,7 @@ nav .fa-solid {
 .contact div nav ul li a{
     color: #FFFFFF;
     display: inline-block;
-    margin: 0 20px;
+    margin: 0;
 }
 .contact div nav ul{
     list-style: none;
