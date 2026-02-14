@@ -298,7 +298,7 @@ main.container {
     text-align: center;
     box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.2);
 }
-.contact div hr{
+.contact hr{
     color: rgba(255, 255, 255, 0.3);
     width: 100%;
     max-width: 600px;
@@ -307,27 +307,27 @@ main.container {
     height: 1px;
     background: linear-gradient(to right, transparent, rgb(255,255,255), transparent);
 }
-.contact div nav ul li a i{
+.contact nav ul li a i{
     font-size: 45px;
     transition: all 0.3s ease;
 }
-.contact div nav ul li a i:hover{
+.contact nav ul li a i:hover{
     transform: scale(1.15);
     color: #D4A574;
 }
-.contact div nav ul li a{
+.contact nav ul li a{
     color: #FFFFFF;
     display: inline-block;
     margin: 0 20px;
 }
-.contact div nav ul{
+.contact nav ul{
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
 
-.contact div nav ul {
+.contact nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
