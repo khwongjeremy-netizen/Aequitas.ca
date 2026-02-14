@@ -9,7 +9,7 @@ html, body {
 body {
     margin: 0;
     padding: 0;
-    padding-bottom: 50vh;
+    padding-bottom: 45vh;
     background: linear-gradient(135deg, #fafafa 0%, #ffffff 100%);
     color: #222222;
     min-height: 100vh;
@@ -288,15 +288,17 @@ main.container {
 
 /* Contact footer */
 .contact {
+    position: fixed;
     bottom: 0;
+    left: 0;
+    right: 0;
     background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
-    width: 100%;
     min-height: 45vh;
-    position: relative;
     padding: 80px 20px;
     text-align: center;
     box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.2);
-    margin-top: 50px;
+    box-sizing: border-box;
+    z-index: 100;
 }
 .contact div hr{
     color: rgba(255, 255, 255, 0.3);
