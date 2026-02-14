@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Aequitas biograohy</title>
-        <link rel="stylesheet" href="stylebio.css">
+        <link rel="stylesheet" href="styles.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="script.js" defer></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -30,94 +30,46 @@
             </div>
         </section>
         <!---Biography-->
-        <section class = 'bio'>
+        <main class="container">
+            <section id="bio-hero" class="bio-hero">
+                <h2 class="section-title">About the Founder</h2>
+                <div class="founder">
+                    <div class="founder-avatar" aria-hidden="true"></div>
+                    <div class="founder-content">
+                        <h3 class="founder-name">Janelle Ho</h3>
+                        <p class="lead">Short intro / tagline about the founder goes here. Add 2–3 sentences describing background, motivation, and mission.</p>
+                        <p class="bio-text">Template paragraph: Janelle started Aequitas to empower young people through mentorship and community programs. Replace this with your real biography text when ready.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Team section -->
+            <section id="team" class="team">
+                <h2 class="section-title">Core Team</h2>
+                <div class="team-grid">
+                    <article class="team-card">
+                        <div class="avatar" aria-hidden="true"></div>
+                        <h3 class="name">Jeremy Wong</h3>
+                        <p class="role">Front-end developer</p>
+                        <p class="desc">Short responsibilities or interests. e.g., UI, accessibility, visuals.</p>
+                    </article>
+                    <article class="team-card">
+                        <div class="avatar" aria-hidden="true"></div>
+                        <h3 class="name">Tariq Khalif</h3>
+                        <p class="role">Back-end developer</p>
+                        <p class="desc">Short responsibilities or interests. e.g., data, servers, integrations.</p>
+                    </article>
+        <section class="contact">
             <div>
-                <h2>
-                    <!DOCTYPE html>
-                    <html lang="en">
-                        <head>
-                            <meta charset="utf-8">
-                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                            <title>Aequitas — Biography</title>
-                            <link rel="stylesheet" href="styles.css">
-                            <script src="script.js" defer></script>
-                            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-                            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-                            <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300;400;600;800&family=Great+Vibes&display=swap" rel="stylesheet">
-                        </head>
-                        <body>
-                            <header class="site-header">
-                                <nav class="nav container">
-                                    <a class="logo" href="index.html">Aequitas</a>
-                                    <button class="nav-toggle" aria-label="Open menu" onclick="showMenu()"><i class="fa-solid fa-bars"></i></button>
-                                    <div class="nav-menu" id="pages">
-                                        <button class="nav-close" onclick="hideMenu()"><i class="fa-solid fa-xmark"></i></button>
-                                        <ul class="nav-list">
-                                            <li><a href="index.html">Home</a></li>
-                                            <li><a href="Donate.html">Donate</a></li>
-                                            <li><a href="goals(AQ).html">Goals</a></li>
-                                            <li><a href="bio.html">Contact</a></li>
-                                        </ul>
-                                    </div>
-                                </nav>
-                                <div class="hero container">
-                                    <h1 class="brand">Aequitas</h1>
-                                    <p class="tagline">From youth • For youth</p>
-                                </div>
-                            </header>
-
-                            <main class="container">
-                                <!-- Biography hero -->
-                                <section id="bio-hero" class="bio-hero">
-                                    <h2 class="section-title">About the Founder</h2>
-                                    <div class="founder">
-                                        <div class="founder-avatar" aria-hidden="true"></div>
-                                        <div class="founder-content">
-                                            <h3 class="founder-name">Janelle Ho</h3>
-                                            <p class="lead">Short intro / tagline about the founder goes here. Add 2–3 sentences describing background, motivation, and mission.</p>
-                                            <p class="bio-text">Template paragraph: Janelle started Aequitas to empower young people through mentorship and community programs. Replace this with your real biography text when ready.</p>
-                                        </div>
-                                    </div>
-                                </section>
-
-                                <!-- Team section -->
-                                <section id="team" class="team">
-                                    <h2 class="section-title">Core Team</h2>
-                                    <div class="team-grid">
-                                        <article class="team-card">
-                                            <div class="avatar" aria-hidden="true"></div>
-                                            <h3 class="name">Jeremy Wong</h3>
-                                            <p class="role">Front-end developer</p>
-                                            <p class="desc">Short responsibilities or interests. e.g., UI, accessibility, visuals.</p>
-                                        </article>
-                                        <article class="team-card">
-                                            <div class="avatar" aria-hidden="true"></div>
-                                            <h3 class="name">Tariq Khalif</h3>
-                                            <p class="role">Back-end developer</p>
-                                            <p class="desc">Short responsibilities or interests. e.g., data, servers, integrations.</p>
-                                        </article>
-                                        <!-- Add more team-card elements as needed -->
-                                    </div>
-                                </section>
-
-                                <!-- Timeline / milestones -->
-                                <section id="milestones" class="milestones">
-                                    <h2 class="section-title">Milestones</h2>
-                                    <ol class="timeline">
-                                        <li><strong>2024</strong> — Project founded, first community event.</li>
-                                        <li><strong>2025</strong> — Expanded to workshops and partnerships.</li>
-                                        <li><strong>2026</strong> — Goals: expand programs and launch mentorship platform.</li>
-                                    </ol>
-                                </section>
-
-                                <!-- Contact / social links -->
-                                <section id="contact" class="contact">
-                                    <h2 class="section-title">Get in touch</h2>
-                                    <p>Follow us or reach out on social:</p>
-                                    <ul class="social-list">
-                                        <li><a href="https://www.instagram.com/aequitas.canada?igsh=MXdwdnNud2V5ZHlvZA==" class="social-link"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
-                                    </ul>
-                                </section>
-                            </main>
-                        </body>
-                    </html>
+                <nav>
+                    <ul>
+                        <li><a href="https://www.instagram.com/aequitas.canada?igsh=MXdwdnNud2V5ZHlvZA==">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a></li>
+                    </ul>
+                </nav>
+                <hr>
+            </div>
+        </section>
+    </body>
+</html>
