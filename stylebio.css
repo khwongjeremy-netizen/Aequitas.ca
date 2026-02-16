@@ -10,6 +10,7 @@ body {
     margin: 0;
     padding: 0;
     background: linear-gradient(135deg, #fafafa 0%, #ffffff 100%);
+    min-height: 100vh;
 }
 
 /* Header  */
@@ -292,9 +293,8 @@ main.container {
     right: 50%;
     margin-left: -50vw;
     margin-right: -50vw;
-    margin-top: 100px;
-    min-height: 50vh;
     margin-top: 30%;
+    min-height: 50vh;
     padding: 80px 20px;
     text-align: center;
     box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.2);
