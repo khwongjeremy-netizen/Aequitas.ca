@@ -287,6 +287,11 @@ main.container {
 .contact {
     background-color: #000000;
     width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
     margin-left: calc(-50vw + 50%);
     min-height: 50vh;
     margin-top: 30%;
