@@ -286,15 +286,19 @@ main.container {
 /* Contact footer */
 .contact {
     background-color: #000000;
-    width: 100%;             /* Use 100% instead of 100vw */
-    margin-top: 80px;        /* Fixed gap instead of 30% percentage */
-    padding: 60px 0;         /* Vertical padding */
-    text-align: center;
-    box-sizing: border-box;  /* Ensures padding doesn't add to width */
-    display: block;
+    width: 100vw;
     position: relative;
-    left: 0;                 /* Reset any previous offsets */
-    margin-left: 0;          
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    margin-top: 100px;
+    min-height: 50vh;
+    margin-top: 30%;
+    padding: 80px 20px;
+    text-align: center;
+    box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
 }
 .contact div hr{
     color: rgba(255, 255, 255, 0.3);
