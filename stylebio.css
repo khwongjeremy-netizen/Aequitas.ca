@@ -292,7 +292,7 @@ main.container {
     right: 50%;
     margin-left: -50vw;
     margin-right: -50vw;
-    margin-left: calc(-50vw + 50%);
+    margin-top: 100px;
     min-height: 50vh;
     margin-top: 30%;
     padding: 80px 20px;
