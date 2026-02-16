@@ -287,18 +287,14 @@ main.container {
 /* Contact footer */
 .contact {
     background-color: #000000;
-    width: 100vw;
-    position: relative;
-    left: 50%;
-    right: 50%;
-    margin-left: -50vw;
-    margin-right: -50vw;
+    width: 100%;
+    bottom: 0;
     margin-top: 30%;
     min-height: 50vh;
+    position: relative;
     padding: 80px 20px;
     text-align: center;
     box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.2);
-    box-sizing: border-box;
 }
 .contact div hr{
     color: rgba(255, 255, 255, 0.3);
