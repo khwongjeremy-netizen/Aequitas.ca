@@ -1,0 +1,257 @@
+/* Cleaned GOALS stylesheet: unified with home/donate styles
+   - removed page gradient
+   - header and contact match home/donate
+   - goals card styled like home about card (keeps blue)
+*/
+
+html, body {
+    background-color: #FFFFFF;
+    overflow-x: hidden;
+    width: 100%;
+    font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF; /* removed gradient as requested */
+    color: #222222;
+    min-height: 100vh;
+}
+
+/* Header - match home/donate */
+.header{
+    color: white;
+    min-height: 70vh;
+    width: 100%;
+    background: linear-gradient(to right, black, grey);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Navigation */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .fa-solid {
+    display: none;
+}
+.pages{
+    flex: 1;
+    text-align: right;
+    margin-right: 5%;
+}
+.pages ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+.pages ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    
+}
+.pages ul li::after{
+    content:'';
+    width: 0%;
+    height: 2px;
+    background: white;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.pages ul li:hover::after{
+    width: 100%;
+}
+/*slogan*/
+.slogan {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 40%);
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    width: max-content;
+}
+.slogan h1 {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-size: 100px;
+    margin: 0;
+    color: #FFFFFF;
+    text-shadow: 2px 4px 8px rgba(0, 0, 0, 0.3);
+}
+.slogan h2 {
+    font-size: 18px;
+    margin: 0;
+    color: #E8D5E8;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+/*event stuff*/
+
+.divider {
+  height: 2px;               
+  background-color: #333;  
+  margin: 20px 0;            
+  width: 100%;             
+}
+
+
+.head p {
+    font-family: 'Georgia', 'Garamond', serif;
+    font-weight: 400;
+    font-size: 40px;
+    margin: 0;
+    color: #1a1a1a;
+    text-shadow: 2px 4px 8px rgba(0, 0, 0, 0.3);
+    padding-top: 50px;
+    text-align: center;
+}
+
+.pastevents h3 {
+    font-weight: 400;
+    font-size: 30px;
+    margin: 10px;
+    color: #FFFFFF;
+    text-shadow: 2px 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.pastevents {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    background: transparent;
+    margin: 40px 0;
+    gap: 30px;
+}
+
+.pastevents div{
+    background: #23237B; /* preserve blue */
+    width: 100%;
+    max-width: 700px;
+    padding: 70px 60px;
+    border-radius: 20px;
+    box-shadow: 0 20px 60px rgba(35, 35, 123, 0.12), 0 8px 25px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    position: relative;
+    overflow: hidden;
+}
+
+.pastevents div::before{
+    content: '';
+    position: absolute;
+    top: -40%; right: -30%;
+    width: 420px; height: 420px;
+    background: radial-gradient(circle, rgba(255,255,255,0.06) 0%, transparent 60%);
+    pointer-events: none;
+}
+
+.pastevents div:hover{ transform: translateY(-8px); box-shadow: 0 25px 70px rgba(35, 35, 123, 0.18), 0 10px 30px rgba(0, 0, 0, 0.12); }
+
+.pastevents div h2{
+    text-align: center;
+    font-family: 'Georgia','Garamond', serif;
+    font-size: 38px;
+    color: #F1F1F8;
+    margin: 0 0 20px 0;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    position: relative;
+    z-index: 1;
+}
+
+.pastevents div h2::after{
+    content: '';
+    position: absolute; bottom: -6px; left:50%; transform: translateX(-50%);
+    width: 80px; height: 3px; background: linear-gradient(90deg, transparent, rgba(255,255,255,0.25), transparent); border-radius:2px;
+}
+
+.pastevents div p{
+    padding: 0 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 1.9;
+    margin: 0;
+    position: relative;
+    z-index: 1;
+}
+
+/* Contact/footer - match home/donate */
+.contact {
+    bottom: 0;
+    background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
+    width: 100%;
+    min-height: 45vh;
+    position: relative;
+    padding: 80px 20px;
+    text-align: center;
+    box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.2);
+    margin-top: 50px;
+}
+.contact div hr{
+    color: rgba(255, 255, 255, 0.3);
+    width: 100%;
+    max-width: 600px;
+    margin: 30px auto;
+    border: none;
+    height: 1px;
+    background: linear-gradient(to right, transparent, rgb(255,255,255), transparent);
+}
+.contact div nav ul li a i{
+    font-size: 45px;
+    transition: all 0.3s ease;
+}
+.contact div nav ul li a i:hover{
+    transform: scale(1.15);
+    color: #D4A574;
+}
+.contact div nav ul li a{
+    color: #FFFFFF;
+    display: inline-block;
+    margin: 0 20px;
+}
+.contact div nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px){
+    .header { min-height: 60vh; }
+    .pages ul li a { font-size: 20px; }
+    .goals { padding: 50px 20px; }
+    .goals div { max-width: 100%; padding: 55px 45px; }
+    .goals div p { font-size: 15px; }
+}
+
+@media screen and (max-width: 480px){
+    .header { min-height: 50vh; }
+    .pages { margin-right: 2%; }
+    .pages ul li a { font-size: 18px; }
+    .goals { padding: 40px 10px; }
+    .goals div { padding: 45px 30px; border-radius: 18px; }
+    .goals div p { font-size: 14px; }
+    .contact { min-height: 35vh; padding: 60px 10px; margin-top: 30px; }
+    .contact div nav ul li a i { font-size: 35px; }
+}
+
