@@ -101,6 +101,14 @@ nav .fa-solid {
 
 /*event stuff*/
 
+.divider {
+  height: 2px;               
+  background-color: #333;  
+  margin: 20px 0;            
+  width: 100%;             
+}
+
+
 .head p {
     font-family: 'Georgia', 'Garamond', serif;
     font-weight: 400;
